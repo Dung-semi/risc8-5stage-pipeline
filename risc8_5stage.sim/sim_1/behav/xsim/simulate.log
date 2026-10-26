@@ -1,0 +1,74 @@
+Time resolution is 1 ps
+==== risc8 5-stage pipeline simulation ====
+cyc   1 | PC=00 | IF/ID - 0000 | ID/EX 0 EX/MEM 0 MEM/WB 0 | stall=0 flush=0 fwdA=0 fwdB=0 | Z=0 C=0
+cyc   2 | PC=01 | IF/ID v 823c | ID/EX 0 EX/MEM 0 MEM/WB 0 | stall=0 flush=0 fwdA=0 fwdB=0 | Z=0 C=0
+cyc   3 | PC=02 | IF/ID v 840f | ID/EX 1 EX/MEM 0 MEM/WB 0 | stall=0 flush=0 fwdA=0 fwdB=0 | Z=0 C=0
+cyc   4 | PC=03 | IF/ID v 3650 | ID/EX 1 EX/MEM 1 MEM/WB 0 | stall=0 flush=0 fwdA=0 fwdB=0 | Z=0 C=0
+cyc   5 | PC=04 | IF/ID v 4850 | ID/EX 1 EX/MEM 1 MEM/WB 1 | stall=0 flush=0 fwdA=2 fwdB=1 | Z=0 C=0
+cyc   6 | PC=05 | IF/ID v 5ce0 | ID/EX 1 EX/MEM 1 MEM/WB 1 | stall=0 flush=0 fwdA=0 fwdB=2 | Z=0 C=0
+cyc   7 | PC=06 | IF/ID v 6d80 | ID/EX 1 EX/MEM 1 MEM/WB 1 | stall=0 flush=0 fwdA=2 fwdB=1 | Z=0 C=0
+cyc   8 | PC=07 | IF/ID v 2fb0 | ID/EX 1 EX/MEM 1 MEM/WB 1 | stall=0 flush=0 fwdA=1 fwdB=0 | Z=0 C=0
+cyc   9 | PC=08 | IF/ID v d00a | ID/EX 1 EX/MEM 1 MEM/WB 1 | stall=0 flush=0 fwdA=1 fwdB=1 | Z=0 C=0
+cyc  10 | PC=09 | IF/ID v 8eff | ID/EX 1 EX/MEM 1 MEM/WB 1 | stall=0 flush=1 fwdA=0 fwdB=0 | Z=1 C=0
+cyc  11 | PC=0a | IF/ID - 8eff | ID/EX 0 EX/MEM 1 MEM/WB 1 | stall=0 flush=0 fwdA=0 fwdB=0 | Z=1 C=0
+cyc  12 | PC=0b | IF/ID v 8205 | ID/EX 0 EX/MEM 0 MEM/WB 1 | stall=0 flush=0 fwdA=0 fwdB=0 | Z=1 C=0
+cyc  13 | PC=0c | IF/ID v 8400 | ID/EX 1 EX/MEM 0 MEM/WB 0 | stall=0 flush=0 fwdA=0 fwdB=0 | Z=1 C=0
+cyc  14 | PC=0d | IF/ID v 1488 | ID/EX 1 EX/MEM 1 MEM/WB 0 | stall=0 flush=0 fwdA=0 fwdB=0 | Z=1 C=0
+cyc  15 | PC=0e | IF/ID v 92ff | ID/EX 1 EX/MEM 1 MEM/WB 1 | stall=0 flush=0 fwdA=1 fwdB=2 | Z=1 C=0
+cyc  16 | PC=0f | IF/ID v e00c | ID/EX 1 EX/MEM 1 MEM/WB 1 | stall=0 flush=0 fwdA=0 fwdB=0 | Z=0 C=0
+cyc  17 | PC=10 | IF/ID v 8603 | ID/EX 1 EX/MEM 1 MEM/WB 1 | stall=0 flush=1 fwdA=0 fwdB=0 | Z=0 C=1
+cyc  18 | PC=0c | IF/ID - 8603 | ID/EX 0 EX/MEM 1 MEM/WB 1 | stall=0 flush=0 fwdA=0 fwdB=0 | Z=0 C=1
+cyc  19 | PC=0d | IF/ID v 1488 | ID/EX 0 EX/MEM 0 MEM/WB 1 | stall=0 flush=0 fwdA=0 fwdB=0 | Z=0 C=1
+cyc  20 | PC=0e | IF/ID v 92ff | ID/EX 1 EX/MEM 0 MEM/WB 0 | stall=0 flush=0 fwdA=0 fwdB=0 | Z=0 C=1
+cyc  21 | PC=0f | IF/ID v e00c | ID/EX 1 EX/MEM 1 MEM/WB 0 | stall=0 flush=0 fwdA=0 fwdB=0 | Z=0 C=0
+cyc  22 | PC=10 | IF/ID v 8603 | ID/EX 1 EX/MEM 1 MEM/WB 1 | stall=0 flush=1 fwdA=0 fwdB=0 | Z=0 C=1
+cyc  23 | PC=0c | IF/ID - 8603 | ID/EX 0 EX/MEM 1 MEM/WB 1 | stall=0 flush=0 fwdA=0 fwdB=0 | Z=0 C=1
+cyc  24 | PC=0d | IF/ID v 1488 | ID/EX 0 EX/MEM 0 MEM/WB 1 | stall=0 flush=0 fwdA=0 fwdB=0 | Z=0 C=1
+cyc  25 | PC=0e | IF/ID v 92ff | ID/EX 1 EX/MEM 0 MEM/WB 0 | stall=0 flush=0 fwdA=0 fwdB=0 | Z=0 C=1
+cyc  26 | PC=0f | IF/ID v e00c | ID/EX 1 EX/MEM 1 MEM/WB 0 | stall=0 flush=0 fwdA=0 fwdB=0 | Z=0 C=0
+cyc  27 | PC=10 | IF/ID v 8603 | ID/EX 1 EX/MEM 1 MEM/WB 1 | stall=0 flush=1 fwdA=0 fwdB=0 | Z=0 C=1
+cyc  28 | PC=0c | IF/ID - 8603 | ID/EX 0 EX/MEM 1 MEM/WB 1 | stall=0 flush=0 fwdA=0 fwdB=0 | Z=0 C=1
+cyc  29 | PC=0d | IF/ID v 1488 | ID/EX 0 EX/MEM 0 MEM/WB 1 | stall=0 flush=0 fwdA=0 fwdB=0 | Z=0 C=1
+cyc  30 | PC=0e | IF/ID v 92ff | ID/EX 1 EX/MEM 0 MEM/WB 0 | stall=0 flush=0 fwdA=0 fwdB=0 | Z=0 C=1
+cyc  31 | PC=0f | IF/ID v e00c | ID/EX 1 EX/MEM 1 MEM/WB 0 | stall=0 flush=0 fwdA=0 fwdB=0 | Z=0 C=0
+cyc  32 | PC=10 | IF/ID v 8603 | ID/EX 1 EX/MEM 1 MEM/WB 1 | stall=0 flush=1 fwdA=0 fwdB=0 | Z=0 C=1
+cyc  33 | PC=0c | IF/ID - 8603 | ID/EX 0 EX/MEM 1 MEM/WB 1 | stall=0 flush=0 fwdA=0 fwdB=0 | Z=0 C=1
+cyc  34 | PC=0d | IF/ID v 1488 | ID/EX 0 EX/MEM 0 MEM/WB 1 | stall=0 flush=0 fwdA=0 fwdB=0 | Z=0 C=1
+cyc  35 | PC=0e | IF/ID v 92ff | ID/EX 1 EX/MEM 0 MEM/WB 0 | stall=0 flush=0 fwdA=0 fwdB=0 | Z=0 C=1
+cyc  36 | PC=0f | IF/ID v e00c | ID/EX 1 EX/MEM 1 MEM/WB 0 | stall=0 flush=0 fwdA=0 fwdB=0 | Z=0 C=0
+cyc  37 | PC=10 | IF/ID v 8603 | ID/EX 1 EX/MEM 1 MEM/WB 1 | stall=0 flush=0 fwdA=0 fwdB=0 | Z=1 C=1
+cyc  38 | PC=11 | IF/ID v 76c0 | ID/EX 1 EX/MEM 1 MEM/WB 1 | stall=0 flush=0 fwdA=0 fwdB=0 | Z=1 C=1
+cyc  39 | PC=12 | IF/ID v c014 | ID/EX 1 EX/MEM 1 MEM/WB 1 | stall=0 flush=0 fwdA=1 fwdB=0 | Z=1 C=1
+cyc  40 | PC=13 | IF/ID v 8e11 | ID/EX 1 EX/MEM 1 MEM/WB 1 | stall=0 flush=1 fwdA=0 fwdB=0 | Z=0 C=1
+cyc  41 | PC=14 | IF/ID - 8e11 | ID/EX 0 EX/MEM 1 MEM/WB 1 | stall=0 flush=0 fwdA=0 fwdB=0 | Z=0 C=1
+cyc  42 | PC=15 | IF/ID v 8820 | ID/EX 0 EX/MEM 0 MEM/WB 1 | stall=0 flush=0 fwdA=0 fwdB=0 | Z=0 C=1
+cyc  43 | PC=16 | IF/ID v b500 | ID/EX 1 EX/MEM 0 MEM/WB 0 | stall=0 flush=0 fwdA=0 fwdB=0 | Z=0 C=1
+cyc  44 | PC=17 | IF/ID v ab00 | ID/EX 1 EX/MEM 1 MEM/WB 0 | stall=0 flush=0 fwdA=1 fwdB=0 | Z=0 C=1
+cyc  45 | PC=18 | IF/ID v 9af0 | ID/EX 1 EX/MEM 1 MEM/WB 1 | stall=1 flush=0 fwdA=2 fwdB=0 | Z=0 C=1
+cyc  46 | PC=18 | IF/ID v 9af0 | ID/EX 0 EX/MEM 1 MEM/WB 1 | stall=0 flush=0 fwdA=0 fwdB=0 | Z=0 C=1
+cyc  47 | PC=19 | IF/ID v 9a01 | ID/EX 1 EX/MEM 0 MEM/WB 1 | stall=0 flush=0 fwdA=2 fwdB=0 | Z=0 C=1
+cyc  48 | PC=1a | IF/ID v f000 | ID/EX 1 EX/MEM 1 MEM/WB 0 | stall=0 flush=0 fwdA=1 fwdB=0 | Z=0 C=0
+cyc  49 | PC=1b | IF/ID v 0000 | ID/EX 1 EX/MEM 1 MEM/WB 1 | stall=0 flush=0 fwdA=0 fwdB=0 | Z=1 C=1
+cyc  50 | PC=1b | IF/ID - 0000 | ID/EX 0 EX/MEM 1 MEM/WB 1 | stall=0 flush=0 fwdA=0 fwdB=0 | Z=1 C=1
+
+==== Results ====
+  PASS  R1 = 0x00
+  PASS  R2 = 0x0f
+  PASS  R3 = 0x01
+  PASS  R4 = 0x20
+  PASS  R5 = 0x00
+  PASS  R6 = 0x66
+  PASS  R7 = 0x00
+  PASS  MEM[0x20] = 0x0f
+  PASS  Z,C = 0x03
+
+==== Statistics ====
+  cycles            : 51
+  instructions      : 34
+  CPI               : 1.50
+  load-use stalls   : 1
+  taken branches    : 6 (2-cycle flush each)
+  forwarded operands: 15
+
+*** ALL TESTS PASSED ***
+$finish called at time : 526 ns : File "C:/Users/PC/risc8_5stage/risc8_5stage.srcs/sim_1/new/tb_risc8_5stage.v" Line 127
