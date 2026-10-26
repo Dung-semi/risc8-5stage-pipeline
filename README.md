@@ -34,14 +34,7 @@ implemented with **AMD Vivado 2026.1** for a Xilinx Artix-7 FPGA (`xc7a35tcpg236
 The cycle count is fully explained:
 `34 instructions + 4 pipeline fill + 1 load-use stall + 6 taken branches × 2 = 51 cycles`.
 
-### Simulation results
-![Simulation results](docs/images/results.png)
 
-### Waveform
-![Waveform](docs/images/waveform.png)
-
-### Vivado utilisation and timing
-![Vivado dashboard](docs/images/dashboard.png)
 
 ## Pipeline
 
